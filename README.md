@@ -48,4 +48,20 @@ An interactive machine learning web app that predicts smartphone prices based on
 
 ## Project Structure
 
-<pre> ```text mobile_price_predictor/ ├── main.py ├── pipe.joblib ├── df.joblib ├── combined_importance_df.joblib ├── data/ │ └── flipkart_mobiles.csv ├── notebook/ │ └── Mobile_price_prediction_trained_model.ipynb ├── requirements.txt ├── README.md └── .gitignore ``` </pre>
+<pre lang="markdown"> ```text mobile_price_predictor/ ├── main.py ├── pipe.joblib ├── df.joblib ├── combined_importance_df.joblib ├── data/ │ └── flipkart_mobiles.csv ├── notebook/ │ └── Mobile_price_prediction_trained_model.ipynb ├── requirements.txt ├── README.md └── .gitignore ``` </pre>
+
+## Project Structure
+
+```text
+mobile_price_predictor/
+├── main.py
+├── pipe.joblib
+├── df.joblib
+├── combined_importance_df.joblib
+├── data/
+│   └── flipkart_mobiles.csv
+├── notebook/
+│   └── Mobile_price_prediction_trained_model.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
