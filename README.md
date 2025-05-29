@@ -12,13 +12,13 @@ An interactive machine learning web app that predicts smartphone prices based on
 
 
 ## Try the App
- [Launch Web App](https://my-streamlit-url.streamlit.app) *(replace with your actual link)*
+ [Launch Web App](https://mobile-price-predictor-kp123.streamlit.app/)
 
 
 ## How to Use
-1. Open the [Streamlit App](https://my-streamlit-url.streamlit.app)
+1. Open the [Mobile Price Predictor App](https://mobile-price-predictor-kp123.streamlit.app/)
 2. Select mobile specifications (e.g., brand, RAM, display size, camera,..)
-3. Click **Predict Price** to see the predicted value
+3. Click **Predict Price** to see thit e predicted value
 4. View feature importance for model interpretability
 
 
@@ -49,14 +49,15 @@ An interactive machine learning web app that predicts smartphone prices based on
 ## Project Structure
 
 flipkart_mobile_price_predictor/
-├── main.py                                                            #code for streamlit app
-├── pipe.joblib                                                        #xgboost model learning weights
-├── df.joblib                                                          #final dataframe used in model
-├── combined_importance_df.joblib                                      #feature importance plot shown in app
+│
+├── main.py
+├── pipe.joblib
+├── df.joblib
+├── combined_importance_df.joblib
 ├── data/
-│   └── flipkart_mobiles.csv                                           #raw file scrapped from flipkart (to be used as hobby project only)
+│   └── flipkart_mobiles.csv
 ├── notebook/
-│   └── Mobile_price_prediction_trained_model.ipynb                    #notebook for data analysis and model building
-├── requirements.txt                                                   #necessary libraries and versions
-├── README.md                                                          
+│   └── Mobile_price_prediction_trained_model.ipynb
+├── requirements.txt
+├── README.md
 └── .gitignore
