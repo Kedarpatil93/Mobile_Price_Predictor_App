@@ -52,7 +52,7 @@ with st.expander("📦 Mobile Brand & Display Details", expanded=True):
         Brand = st.selectbox('Brand', df['Brand'].unique())
         color = st.selectbox('Color Choice', df['color'].unique())
     with col2:
-        Model = st.selectbox('Mobile Category', df['Model'].unique())
+        Model = st.selectbox('Model (Category) ', df['Model'].unique())
         Display_Inch = st.number_input('Display size (in Inch)', min_value=3.0, max_value=7.5, step=0.1)
     
 # ----------- SECTION 2: Memory & Processor -----------
