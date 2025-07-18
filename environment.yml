@@ -1,0 +1,18 @@
+name: predictor_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=2.2.5
+  - pandas=2.2.3
+  - matplotlib
+  - seaborn=0.13.2
+  - scikit-learn=1.6.1
+  - jupyter
+  - pip:
+    - streamlit==1.45.0
+    - xgboost==3.0.0
+    - category-encoders==2.8.1
+    - joblib==1.5.0
